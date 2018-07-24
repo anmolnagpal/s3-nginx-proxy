@@ -1,13 +1,13 @@
 > HTTP caching between our servers and S3 so that images were only downloaded once from S3.
 
-
 ####Usage
 ```bash
 docker run -p 8085:8085 -v /path/to/nginx.conf:/nginx.conf anmolnagpal/s3-nginx-proxy 
 ```
 
 #####Example nginx.conf file:
-```bash
+
+```
 worker_processes 2;
 pid /run/nginx.pid;
 daemon off;
@@ -64,5 +64,4 @@ http {
 ## 👬 Contribution
 - Open pull request with improvements
 - Discuss ideas in issues
-
 - Reach out with any feedback [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/anmol_nagpal.svg?style=social&label=Follow%20%40anmol_nagpal)](https://twitter.com/anmol_nagpal)
