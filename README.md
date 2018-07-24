@@ -7,7 +7,7 @@ docker run -p 8085:8085 -v /path/to/nginx.conf:/nginx.conf anmolnagpal/s3-nginx-
 ```
 
 #####Example nginx.conf file:
-```smartyconfig
+```bash
 worker_processes 2;
 pid /run/nginx.pid;
 daemon off;
