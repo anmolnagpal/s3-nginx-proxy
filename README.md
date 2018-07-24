@@ -60,7 +60,6 @@ http {
 ```
 - Refrence :
     - https://stackoverflow.com/questions/44639182/nginx-proxy-amazon-s3-resources
-    - 
 
 ## 👬 Contribution
 - Open pull request with improvements
