@@ -8,7 +8,7 @@ MAINTAINER AnmolNagpal <ianmolnagpal@gmail.com>
 ENV NGINX_VERSION 1.15.1
 
 RUN set -xe \
-    && export LANG=C.UTF-8
+    && export LANG=C.UTF-8 \
     && export LC_ALL=en_US.UTF-8
 
 # Setup
