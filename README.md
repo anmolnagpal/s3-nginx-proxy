@@ -1,3 +1,5 @@
+<p align="center"><img src="https://user-images.githubusercontent.com/4303310/43109796-b2a62956-8ef9-11e8-8ecb-2bee1b6b368e.png" /></p>
+
 > HTTP caching between our servers and S3 so that images were only downloaded once from S3.
 
 ####Usage
